@@ -1,0 +1,5 @@
+export const initDbError = "If you're online and this app is hanging prolongingly, you're likely viewing this app from code cloned from my Github.  This will not work as I've removed database information on Github as a privacy measure.  Please view this app from my portfolio page instead at www.ekleung123.com."
+export const dbError = "Database error!  If you're seeing this and your internet connection is fine, you're likely viewing this website cloned from my Github.  The clone will not work as I've removed my Firebase ID and other identifying information from my Github due to it being in public view.\n\nTo view this website properly, please view my portfolio instead at www.ekleung123.com."
+export const dbError2 = "Database or connection error!  Please try again later.";
+export const maxEntry = "The maximum number of flights allowed on this board is 15.  Please delete a flight before adding.";
+export const minEntry = "The minimum number of flights allowed on this board is 10.  Please add a flight before deleting.";

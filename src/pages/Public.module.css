@@ -1,0 +1,30 @@
+.tablestriped_pub>tbody>tr:nth-child(odd)>td, 
+.tablestriped_pub>tbody>tr:nth-child(odd)>th {
+  background-color: #1E4BFE;
+  border: 0;
+}
+
+.tablestriped_pub>tbody>tr:nth-child(even)>td, 
+.tablestriped_pub>tbody>tr:nth-child(even)>th {
+  background-color: #0126B2;
+  border: 0;
+}
+
+.tableHeader_pub {
+  background-color: #0126B2;
+  font-family:'Verdana',
+}
+
+.headerText {
+  font-size: 55px;
+  color: white;
+  font-family: "Arial";
+}
+
+.eric {
+  font-size: 25px;
+  color: white;
+  font-family:'Courier New', monospace;
+  text-transform: uppercase;
+  font-weight: 500;
+}

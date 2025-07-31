@@ -1,0 +1,14 @@
+.blinking {
+  animation: blinker 1.5s ease-in infinite;
+}
+
+@keyframes blinker {
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 1;}
+}
+
+.tableText {
+  font-family: "Arial";
+  font-size: 22px;
+}

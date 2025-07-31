@@ -1,0 +1,23 @@
+.admin {
+  font-size: 40px;
+  font-family: "Georgia";
+}
+
+.public {
+  font-size: 60px;
+  color: white;
+}
+
+.pageHeader {
+  display: inline-block;
+}
+
+.toggleButton {
+  font-weight: bold;
+  vertical-align: text-bottom;
+}
+
+.logo {
+  vertical-align: text-bottom; 
+  font-size: 75px;
+}

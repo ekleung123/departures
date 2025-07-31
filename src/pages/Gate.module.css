@@ -1,0 +1,99 @@
+.page {
+  background-color: DarkSlateGrey;
+  display: flex;
+  height: 100vh;
+}
+
+.gate {
+  background-color: red;
+  width: 700px;
+  height: 500px;
+  margin: auto;
+}
+
+.monitor {
+  background-color: navy;
+  height: 550px;
+  width: 800px;
+  margin: auto;
+  margin-top: -70px;
+}
+
+.header {
+  background-color: yellow;
+  font-family: 'Tahoma';
+  font-weight: bold;
+  font-size: 75px;
+}
+
+.gatelogo {
+  width: 85px;
+  height: 85px;
+  margin-left: 25px;
+  margin-right: 15px;
+  vertical-align: text-top;
+}
+
+/* Section1: Flight number and time section */
+
+.section1 {
+  background-color: white;
+  display: flex;
+  color: red;
+} 
+
+.section1a {
+  width: 50%;
+  font-size: 55px;
+  font-weight: bolder;
+  font-family: 'Tahoma';
+  padding-left: 20px;
+}
+
+.section1b {
+  width: 50%;
+  font-size: 55px;
+  text-align: right;
+  font-weight: bolder;
+  font-family: 'Tahoma';
+  padding-right: 20px;
+}
+
+/* Section2: City and status section */
+
+.section2 {
+  color: white;
+  font-family: 'Arial';
+  font-weight: bold;
+}
+
+.section2a {
+  padding-left: 30px;
+  font-size: 70px;
+  padding-top: 40px;
+  font-family: "Tahoma";
+   text-transform: uppercase;
+}
+
+.section2b {
+  padding-right: 30px;
+  font-size: 55px;
+  text-align: right;
+  font-weight: lighter;
+  padding-top: 30px;
+}
+
+.section2b_blink {
+  padding-right: 30px;
+  font-size: 55px;
+  text-align: right;
+  font-weight: lighter;
+  padding-top: 30px;
+  animation: blinker 1.5s ease-in infinite;
+}
+
+@keyframes blinker {
+  0%{opacity: 0;}
+  50%{opacity: 1;}
+  100%{opacity: 1;}
+}

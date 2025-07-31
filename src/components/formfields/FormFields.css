@@ -1,0 +1,21 @@
+.field {
+  margin-right: 7px;
+  font-weight: bold;
+  font-family: Arial;
+}
+
+input {
+  margin-left: 6px;
+  height: 25px;
+}
+
+select {
+  margin-left: 8px;
+  height: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+  select {
+    margin-top: 3px;
+  }
+}
